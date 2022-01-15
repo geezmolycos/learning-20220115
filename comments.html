@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>「我和计算机学科」说明文档</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="normalize.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="cayman.css" media="screen">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            #course-diagram .course-name a {
+                fill: rgb(184, 223, 255);
+                text-decoration: none;
+                transition-property: fill;
+                transition-duration: 0.5s;
+            }
+
+            #course-diagram .course-name a:hover {
+                text-decoration: underline;
+                fill: rgb(224, 241, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <section class="page-header">
+            <h1 class="project-name">「我和计算机学科」说明文档</h1>
+            <a href="index.html" class="btn">主文档</a>
+        </section>
+        <section class="main-content">
+            <div>
+                <p><strong>主文档页面都使用了什么技术？</strong></p>
+                <p>主文档和该说明文档一样，均使用纯 HTML + CSS 编写而成，并未使用 Javascript 脚本。其中部分动画效果（鼠标悬浮使得示意图中的链接颜色出现些许变化）均使用 CSS 实现。</p>
+                <p>示意图由 Microsoft Powerpoint 画成，导出为svg格式，经修改后直接嵌入到网页中（因为需要添加部分文字链接）。</p>
+                <p>整体页面样式由 <a href="https://twitter.com/jasonlong">Jason Long</a> 的 <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> 提供。而上述动画效果是自己写的。</p>
+                <br>
+                <p><strong>参考资料是怎么选择的？</strong></p>
+                <p>教程和参考类的资料大都是我所用过的。而涉及某一具体点的资料，是我认为写得好的，对学习某个点有用的资料。</p>
+                <p><strong>文案是你自己写的吗？HTML 是你自己写的吗？</strong></p>
+                <p>都是我自己写的，HTML 也是自己写的，用 VS Code 写成的。我自己用的是 Chrome 浏览器，如果有什么排版上的问题，那请使用 Chrome 浏览器观看。</p>
+            </div>
+            <footer class="site-footer">
+                <span class="site-footer-credits">该页面使用了 <a href="https://twitter.com/jasonlong">Jason Long</a> 的 <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a>。</span>
+            </footer>
+        </section>
+        
+    </body>
+</html>
